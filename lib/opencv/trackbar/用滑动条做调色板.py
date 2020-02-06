@@ -14,7 +14,7 @@ cv2.createTrackbar('R', 'image', 0, 255, nothing)
 cv2.createTrackbar('G', 'image', 0, 255, nothing)
 cv2.createTrackbar('B', 'image', 0, 255, nothing)
 
-switch = '0:OFF\n1:ON'
+switch = '0:OFF \n 1:ON'
 cv2.createTrackbar(switch, 'image', 0, 1, nothing)
 
 while 1:
